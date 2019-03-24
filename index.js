@@ -2,5 +2,6 @@
 var name = "Susan"
 var height = 30
 var message = ` is ${height} inches tall`
-expect(index.name).toInclude(index.name)
+expect(index.message).toInclude(index.name)
+expect(index.message).toInclude(index.height)
 module.exports = {name, height, message}
